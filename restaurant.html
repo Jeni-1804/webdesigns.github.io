@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yummy Restaurant</title>
+    <style>
+        body{
+            background:url(https://i.pinimg.com/474x/fa/05/7b/fa057b307bd64906135b493df6f4ad46.jpg) no-repeat center center fixed;
+            background-size:cover;
+            font-family: sans-serif;
+        }
+        header{
+            width:80%;
+            margin:auto;
+            overflow:hidden;
+        }
+        .head{
+            float:left;
+            color:#ffff;
+            font-family:monospace;
+            font-size: 30px;
+            color:white;
+            border:5px double palevioletred;
+            margin:5px;
+            
+        }
+        nav{
+            float:right;
+          }
+        li{
+            display:inline;
+            padding:1rem;
+        }
+        a{
+            color:#fff;
+            text-decoration:none;
+            font-weight:bold;
+        }
+        .active{
+            color:gold;
+        }
+        .container{
+            width:70%;
+            margin:auto;
+            overflow:hidden;
+            margin-top:1%;
+        }
+        section h1{
+            color:black;
+            font-size:30px;
+            font-family:cursive;
+            text-align:center;
+            border-radius: 50%;
+        }
+        section h3{
+            color:white;
+            background-color:black;
+            border-radius: 50%;
+            text-align:center;
+            letter-spacing:2px;
+        }
+        .category{
+            color:red;
+            margin-top:5%;
+            display:flex;
+            text-align:center;
+            font-family:cursive;
+        }
+        img{
+            width:80%;
+            border-radius:20%;
+        }
+        .snacks,.grill{
+            padding-left:1rem;
+        }
+        h4{
+            font-size:1.5rem;
+            margin:3%;
+        }
+        .btn{
+            background-color:palevioletred;
+            padding:1rem;
+            border:none;
+            border-radius:8px;
+            margin-left:45%;
+            font-family: monospace;
+            font-size: 18px;
+        
+        }
+        .category h4{
+            color:black;
+        }
+        .category p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:black;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+
+    <!--header-->
+    <header>
+        <div class ="head">
+            <h2>Bellyfull</h2>
+        </div>
+
+    <!--navigation-->
+    <nav>
+        <ul>
+            <li><a href="#" class="active">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">NEWS & EVENTS</a></li>
+            <li><a href="#">MAIL US</a></li>
+        </ul>
+    </nav>
+    </header>
+    <!--end of the navigation and header tag-->
+    <!--section-->
+    <section>
+        <div class="container">
+            <h1>Food Tastes  better when you eat with your familty</h1>
+            <h3>veg,non-veg, all kinds of snacks are available</h3>
+            <div class="category">
+                <div class="thai">
+                    <img src="https://hips.hearstapps.com/delish/assets/17/25/1498148145-delish-easy-pad-thai-horizontal-1024.jpg" alt="">
+                    <h4>Thai Tanic</h4>
+                    <p>This Thai Curried Vegetable dish is authentic & loaded with the unique flavors. Full of potatoes & mixed vegetables covered with a creamy flavorful curry sauce. Plant-Based Diet.
+                         Vegan Resource. Healthy Eating.</p>
+                </div>
+                <div class="snacks">
+                    <img src="https://media.istockphoto.com/photos/salty-snacks-picture-id478815753?k=6&m=478815753&s=612x612&w=0&h=mZgZQpuvBRQFlNYoSWTmZtUCWpsoGg7n4or0DG51dOA=" alt="">
+                    <h4> Evening snacks</h4>
+                    <p>A snack is a small service of food and generally eaten between meals. Snacks come in a variety of forms including packaged snack foods and other processed foods,
+                         as well as items made from fresh ingredients at home.</p>
+                </div>
+                <div class="grill">
+                    <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fgettyimages-89742569.jpg%3Fitok%3DZKs-qioz" alt="">
+                    <h4>gochew grill</h4>
+                    <p>Great grill recipes don't need to be complicated. Make juicy bacon burgers on brioche buns, eggplant Parmesan, 
+                        and all kinds of grilled fish ...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end of section-->
+    <a href="#"><button class="btn">Read more</button></a>
+</body>
+</html>
